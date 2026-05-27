@@ -8,7 +8,7 @@ public class AddTwoNumbers {
         int val;
         ListNode next;
         ListNode() {}
-        ListNode(int val) { this.val = val; }
+        ListNode(int val) { this.val = val; }//생성자
         ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 
@@ -32,7 +32,7 @@ public class AddTwoNumbers {
             if (l1 != null) l1 = l1.next;
             if (l2 != null) l2 = l2.next;
         }
-        return dummyHead.next;
+        return dummyHead.next; // 더미 다음 칸부터 리턴
     }
 
     // 입력을 받아서 노드로 연결해주는 메소드
