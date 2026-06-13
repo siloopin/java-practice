@@ -1,5 +1,6 @@
 package workSpace._06_ZigzagConversion;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 class Solution_gemini {
     public String convert(String s, int numRows) {
@@ -41,5 +42,11 @@ class Solution_gemini {
     }
 }
 public class Sol_Gemini {
-
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next();
+        int n = sc.nextInt();
+        System.out.println(solution.convert(s,n));
+    }
 }
